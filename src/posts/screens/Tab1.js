@@ -8,11 +8,11 @@ import {action$fetchPosts} from '../posts.actions';
 
 class Tab1 extends Component {
 
-  // static propTypes = {
-  //   componentId: PropTypes.string,
-  //   action$fetchPosts: PropTypes.func,
-  //   posts: PropTypes.array
-  // };
+  static propTypes = {
+    componentId: PropTypes.string,
+    action$fetchPosts: PropTypes.func,
+    posts: PropTypes.array
+  };
 
   constructor(props) {
     super(props);

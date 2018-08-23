@@ -1,6 +1,7 @@
 import {Navigation} from 'react-native-navigation';
 import {registerScreens} from './src/screens';
 
+export default () => {
 registerScreens();
 
 // Navigation.events().registerAppLaunchedListener(() => {
@@ -29,7 +30,7 @@ registerScreens();
 Navigation.events().registerAppLaunchedListener(() => {
   Navigation.setRoot(tabs());
 });
-
+}
 const tabs = () => {
 
     return {

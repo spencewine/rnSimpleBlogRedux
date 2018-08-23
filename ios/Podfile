@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 target 'rnSimpleBlogRedux' do
-  pod 'Stripe', '~> 11.2.0'
   inherit! :search_paths
+  pod 'ReactNativeNavigation', :path => '../node_modules/react-native-navigation'
+
 end
